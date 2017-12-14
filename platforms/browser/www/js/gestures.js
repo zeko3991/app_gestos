@@ -14,7 +14,7 @@ var app={
 		hammertime.get('pinch').set({ enable: true });
 		hammertime.get('rotate').set({ enable: true });
 		
-		hammertime.on('tap doubletap swipe press pich rotate', function(ev) {
+		hammertime.on('tap doubletap pan swipe press pich rotate', function(ev) {
 			document.querySelector('#info').innerHTML = ev.type+'!';
 		});
 	},
