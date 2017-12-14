@@ -90,3 +90,9 @@ button {
 		width: 0%
 	}
 }
+
+@-webkit-keyframes rotacion {
+	100%{
+		-webkit-transform: rotate(360deg);
+	}
+}
