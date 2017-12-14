@@ -1,8 +1,9 @@
 var app={
 	inicio: function(){
-		this.iniciaBotones;
-		this.iniciaFastClick;
-		this.iniciaHammer;
+		alert("inicio");
+		this.iniciaBotones();
+		this.iniciaFastClick();
+		this.iniciaHammer();
 	},
 	
 	iniciaFastClick: function() {
