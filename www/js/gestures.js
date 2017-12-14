@@ -57,7 +57,6 @@ var app={
 			var umbral=25;
 			if (ev.distance > umbral) zona.className = 'rotate';
 		});
-		
 	},
 	
 	ponloClaro: function(){
